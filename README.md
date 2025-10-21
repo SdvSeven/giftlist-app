@@ -47,14 +47,20 @@ python main.py
 
 Структура проекта:
 present_project/
-│
-├── main.py                # Точка входа в приложение
-├── main_window.py         # Основная логика интерфейса и взаимодействия
-├── database.py            # Модуль для работы с базой данных SQLite
+
+├── main.py   
+
+├── main_window.py
+
+├── database.py
+
 ├── ui/
-│   └── main_window.ui     # Файл интерфейса, созданный в Qt Designer
-├── icons/                 # Папка с иконками для интерфейса
-└── gifts.db               # Файл базы данных (создается автоматически)
+
+│   └── main_window.ui 
+
+├── data/
+
+└── gifts.db
 
 
 Автор
